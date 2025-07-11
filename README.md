@@ -1,4 +1,4 @@
-#Project Management Tool
+# Project Management Tool
 A full-stack web application for managing projects and tasks, built with a React frontend and an Express/MongoDB backend. Features include user authentication, project/task CRUD operations, server-side pagination and search, ownership validation, form validation, and unit tests.
 
 ## Tech Stack
