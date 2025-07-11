@@ -21,37 +21,37 @@ A full-stack web application for managing projects and tasks, built with a React
 #### │   │   └── taskController.js
 #### │   ├── models/
 #### │   │   ├── User.js
-│   │   ├── Project.js
-│   │   └── Task.js
-│   ├── middleware/
-│   │   └── auth.js
-│   ├── tests/
-│   │   └── projectController.test.js
-│   ├── server.js
-│   ├── seed.js
-│   ├── package.json
-│   └── .env
-├── frontend/
-│   ├── src/
-│   │   ├── api/
-│   │   │   └── axios.ts
-│   │   ├── context/
-│   │   │   └── AuthContext.tsx
-│   │   ├── pages/
-│   │   │   ├── Login.tsx
-│   │   │   ├── Register.tsx
-│   │   │   └── Dashboard.tsx
-│   │   ├── tests/
-│   │   │   ├── Login.test.tsx
-│   │   │   ├── Dashboard.test.tsx
-│   │   │   └── Register.test.tsx
-│   │   └── types.ts
-│   ├── jest.config.js
-│   ├── tsconfig.json
-│   ├── vite.config.ts
-│   ├── package.json
-│   └── tailwind.config.js
-└── README.md
+#### │   │   ├── Project.js
+#### │   │   └── Task.js
+#### │   ├── middleware/
+#### │   │   └── auth.js
+#### │   ├── tests/
+#### │   │   └── projectController.test.js
+#### │   ├── server.js
+#### │   ├── seed.js
+#### │   ├── package.json
+#### │   └── .env
+#### ├── frontend/
+#### │   ├── src/
+#### │   │   ├── api/
+#### │   │   │   └── axios.ts
+#### │   │   ├── context/
+#### │   │   │   └── AuthContext.tsx
+#### │   │   ├── pages/
+#### │   │   │   ├── Login.tsx
+#### │   │   │   ├── Register.tsx
+#### │   │   │   └── Dashboard.tsx
+#### │   │   ├── tests/
+#### │   │   │   ├── Login.test.tsx
+#### │   │   │   ├── Dashboard.test.tsx
+#### │   │   │   └── Register.test.tsx
+#### │   │   └── types.ts
+#### │   ├── jest.config.js
+#### │   ├── tsconfig.json
+#### │   ├── vite.config.ts
+#### │   ├── package.json
+#### │   └── tailwind.config.js
+#### └── README.md
 
 ## Setup Instructions
 ### Backend
