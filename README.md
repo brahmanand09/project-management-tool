@@ -102,13 +102,13 @@ To populate the database with sample data:
 ## Usage
 
 1. **Register:** Navigate to http://localhost:5173/register to create a new account.
-2. Login: Go to http://localhost:5173/login to log in with your credentials.
-3. Dashboard: After logging in, you'll be redirected to http://localhost:5173/, where you can:
-* Create, edit, or delete projects and tasks.
-* Search projects by title.
-* Paginate through projects (4 per page).
-* Filter tasks by status (all, todo, in-progress, done).
-* Search tasks by title or description.
+2. **Login:** Go to http://localhost:5173/login to log in with your credentials.
+3. **Dashboard:** After logging in, you'll be redirected to http://localhost:5173/, where you can:
+    * Create, edit, or delete projects and tasks.
+    * Search projects by title.
+    * Paginate through projects (4 per page).
+    * Filter tasks by status (all, todo, in-progress, done).
+    * Search tasks by title or description.
 
 
 
