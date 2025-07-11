@@ -53,20 +53,23 @@ project-management-tool/
 │   └── tailwind.config.js
 └── README.md
 
-Setup Instructions
-Backend
+## Setup Instructions
+### Backend
 
-Navigate to the backend directory:cd backend
-
-
-Install dependencies:npm install
+1. Navigate to the backend directory:
+   * cd backend
 
 
-Create a .env file in the backend directory with the following:MONGO_URI=mongodb://localhost:27017/project-management-tool
-JWT_SECRET=your_jwt_secret
+2. Install dependencies:
+   * npm install
 
-Replace MONGO_URI with your MongoDB connection string (local or MongoDB Atlas) and JWT_SECRET with a secure key.
-Start the backend server:npm start
+
+3. Create a .env file in the backend directory with the following:
+   * MONGO_URI=mongodb://localhost:27017/project-management-tool
+   * JWT_SECRET=your_jwt_secret
+      Replace MONGO_URI with your MongoDB connection string (local or MongoDB Atlas) and JWT_SECRET with a secure key.
+4. Start the backend server:
+   * npm start
 
 The server runs on http://localhost:5000.
 
