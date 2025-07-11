@@ -120,7 +120,7 @@ To populate the database with sample data:
 
 
 2. Run tests:
-   *npm run test
+   * npm run test
 
 Tests use jest, supertest, and mongodb-memory-server to test project CRUD and pagination.
 
@@ -137,13 +137,13 @@ Tests use jest, react-testing-library, and ts-jest to test rendering and form su
 
 ## Features
 
-* Authentication: Secure JWT-based login and registration.
-* Project Management: Create, update, delete, and list projects with server-side pagination and search.
-* Task Management: Create, update, delete, and filter tasks within projects.
-* Ownership Validation: Users can only modify their own projects and tasks.
-* Form Validation: Client-side validation using react-hook-form and yup.
-* Responsive UI: Styled with Tailwind CSS for a modern, user-friendly interface.
-* Unit Tests: Comprehensive tests for backend and frontend functionality.
+* **Authentication:** Secure JWT-based login and registration.
+* **Project Management:** Create, update, delete, and list projects with server-side pagination and search.
+* **Task Management:** Create, update, delete, and filter tasks within projects.
+* **Ownership Validation:** Users can only modify their own projects and tasks.
+* **Form Validation:** Client-side validation using react-hook-form and yup.
+* **Responsive UI:** Styled with Tailwind CSS for a modern, user-friendly interface.
+* **Unit Tests:** Comprehensive tests for backend and frontend functionality.
 
 ## Troubleshooting
 
