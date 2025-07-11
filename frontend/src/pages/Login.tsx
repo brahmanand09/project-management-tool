@@ -33,32 +33,39 @@ export default function Login() {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="p-6 max-w-sm mx-auto mt-10 bg-white rounded shadow">
-      <h2 className="text-xl mb-4 font-bold">Login</h2>
-      <div className="mb-4">
-        <input
-          {...register('email')}
-          placeholder="Email"
-          className="input"
-        />
-        <p className="text-red-600 text-sm">{errors.email?.message}</p>
+    <div className="flex items-center justify-center min-h-screen bg-gray-100 px-4">
+      <div className="w-full max-w-md bg-white p-8 rounded-lg shadow">
+        <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">Login to Your Account</h2>
+        <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Email</label>
+            <input
+              type="email"
+              {...register('email')}
+              className="mt-1 w-full border px-3 py-2 rounded-md shadow-sm focus:ring focus:ring-blue-200"
+              placeholder="you@example.com"
+            />
+            {errors.email && <p className="text-sm text-red-500 mt-1">{errors.email.message}</p>}
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Password</label>
+            <input
+              type="password"
+              {...register('password')}
+              className="mt-1 w-full border px-3 py-2 rounded-md shadow-sm focus:ring focus:ring-blue-200"
+              placeholder="••••••••"
+            />
+            {errors.password && <p className="text-sm text-red-500 mt-1">{errors.password.message}</p>}
+          </div>
+          <button type="submit" className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition">
+            Sign In
+          </button>
+          <p className="text-sm text-center text-gray-600">
+            Don’t have an account?{' '}
+            <Link to="/register" className="text-blue-600 hover:underline">Sign up</Link>
+          </p>
+        </form>
       </div>
-      <div className="mb-4">
-        <input
-          type="password"
-          {...register('password')}
-          placeholder="Password"
-          className="input"
-        />
-        <p className="text-red-600 text-sm">{errors.password?.message}</p>
-      </div>
-      <button type="submit" className="btn">Login</button>
-      <p className="text-sm mt-4">
-        Don’t have an account?{" "}
-        <Link to="/register" className="text-blue-600 underline">
-          Register here
-        </Link>
-      </p>
-    </form>
+    </div>
   );
 }
