@@ -102,59 +102,63 @@ To populate the database with sample data:
 ## Usage
 
 1. **Register:** Navigate to http://localhost:5173/register to create a new account.
-Login: Go to http://localhost:5173/login to log in with your credentials.
-Dashboard: After logging in, you'll be redirected to http://localhost:5173/, where you can:
-Create, edit, or delete projects and tasks.
-Search projects by title.
-Paginate through projects (4 per page).
-Filter tasks by status (all, todo, in-progress, done).
-Search tasks by title or description.
+2. Login: Go to http://localhost:5173/login to log in with your credentials.
+3. Dashboard: After logging in, you'll be redirected to http://localhost:5173/, where you can:
+* Create, edit, or delete projects and tasks.
+* Search projects by title.
+* Paginate through projects (4 per page).
+* Filter tasks by status (all, todo, in-progress, done).
+* Search tasks by title or description.
 
 
 
-Testing
-Backend Tests
+## Testing
+### Backend Tests
 
-Navigate to the backend directory:cd backend
+1. Navigate to the backend directory:
+   * cd backend
 
 
-Run tests:npm run test
+2. Run tests:
+   *npm run test
 
 Tests use jest, supertest, and mongodb-memory-server to test project CRUD and pagination.
 
-Frontend Tests
+### Frontend Tests
 
-Navigate to the frontend directory:cd frontend
+1. Navigate to the frontend directory:
+   *cd frontend
 
 
-Run tests:npm run test
+2. Run tests:
+   * npm run test
 
 Tests use jest, react-testing-library, and ts-jest to test rendering and form submission for Login, Register, and Dashboard components.
 
-Features
+## Features
 
-Authentication: Secure JWT-based login and registration.
-Project Management: Create, update, delete, and list projects with server-side pagination and search.
-Task Management: Create, update, delete, and filter tasks within projects.
-Ownership Validation: Users can only modify their own projects and tasks.
-Form Validation: Client-side validation using react-hook-form and yup.
-Responsive UI: Styled with Tailwind CSS for a modern, user-friendly interface.
-Unit Tests: Comprehensive tests for backend and frontend functionality.
+* Authentication: Secure JWT-based login and registration.
+* Project Management: Create, update, delete, and list projects with server-side pagination and search.
+* Task Management: Create, update, delete, and filter tasks within projects.
+* Ownership Validation: Users can only modify their own projects and tasks.
+* Form Validation: Client-side validation using react-hook-form and yup.
+* Responsive UI: Styled with Tailwind CSS for a modern, user-friendly interface.
+* Unit Tests: Comprehensive tests for backend and frontend functionality.
 
-Troubleshooting
+## Troubleshooting
 
-MongoDB Connection: Ensure MongoDB is running and MONGO_URI is correct in backend/.env.
-Test Errors: If tests fail, verify all dependencies are installed (npm install) and check for missing files (e.g., axios.ts, AuthContext.tsx).
-Vite Errors: If the frontend fails to build, consider upgrading vite and @vitejs/plugin-react (see below).
+* MongoDB Connection: Ensure MongoDB is running and MONGO_URI is correct in backend/.env.
+* Test Errors: If tests fail, verify all dependencies are installed (npm install) and check for missing files (e.g., axios.ts, AuthContext.tsx).
+* Vite Errors: If the frontend fails to build, consider upgrading vite and @vitejs/plugin-react (see below).
 
-Potential Improvements
+## Potential Improvements
 
-Upgrade to vite@^5.0.0 and @vitejs/plugin-react@^4.0.0 for better performance.
-Add more test cases for form validation errors and edge cases.
-Implement Docker for containerized deployment.
-Enhance UI with additional features like project sorting or task due date reminders.
+* Upgrade to vite@^5.0.0 and @vitejs/plugin-react@^4.0.0 for better performance.
+* Add more test cases for form validation errors and edge cases.
+* Implement Docker for containerized deployment.
+* Enhance UI with additional features like project sorting or task due date reminders.
 
-Contributing
+## Contributing
 Feel free to fork the repository, create a feature branch, and submit a pull request with improvements or bug fixes.
-License
+## License
 MIT License
