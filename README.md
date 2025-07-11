@@ -12,8 +12,8 @@ A full-stack web application for managing projects and tasks, built with a React
 * MongoDB (local or MongoDB Atlas)
 * npm (v8 or higher)
 
-Project Structure
-project-management-tool/
+## Project Structure
+### project-management-tool/
 ├── backend/
 │   ├── controllers/
 │   │   ├── authController.js
