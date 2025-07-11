@@ -67,37 +67,41 @@ project-management-tool/
 3. Create a .env file in the backend directory with the following:
    * MONGO_URI=mongodb://localhost:27017/project-management-tool
    * JWT_SECRET=your_jwt_secret
-      Replace MONGO_URI with your MongoDB connection string (local or MongoDB Atlas) and JWT_SECRET with a secure key.
+     
+   Note: Replace MONGO_URI with your MongoDB connection string (local or MongoDB Atlas) and JWT_SECRET with a secure key.
 4. Start the backend server:
    * npm start
 
 The server runs on http://localhost:5000.
 
-Frontend
+## Frontend
 
-Navigate to the frontend directory:cd frontend
-
-
-Install dependencies:npm install
+1. Navigate to the frontend directory:
+   * cd frontend
 
 
-Start the development server:npm run dev
+2. Install dependencies:
+   * npm install
+
+
+3. Start the development server:
+   * npm run dev
 
 The frontend runs on http://localhost:5173.
 
-Seed Data (Optional)
+### Seed Data (Optional)
 To populate the database with sample data:
-cd backend
-npm run seed
+* cd backend
+* npm run seed
 
-Login with:
+#### Login with:
 
-Email: test@example.com
-Password: Test@123
+* Email: test@example.com
+* Password: Test@123
 
-Usage
+## Usage
 
-Register: Navigate to http://localhost:5173/register to create a new account.
+1. **Register:** Navigate to http://localhost:5173/register to create a new account.
 Login: Go to http://localhost:5173/login to log in with your credentials.
 Dashboard: After logging in, you'll be redirected to http://localhost:5173/, where you can:
 Create, edit, or delete projects and tasks.
