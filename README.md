@@ -13,14 +13,14 @@ A full-stack web application for managing projects and tasks, built with a React
 * npm (v8 or higher)
 
 ## Project Structure
-### project-management-tool/
-├── backend/
-│   ├── controllers/
-│   │   ├── authController.js
-│   │   ├── projectController.js
-│   │   └── taskController.js
-│   ├── models/
-│   │   ├── User.js
+#### project-management-tool/
+#### ├── backend/
+#### │   ├── controllers/
+#### │   │   ├── authController.js
+#### │   │   ├── projectController.js
+#### │   │   └── taskController.js
+#### │   ├── models/
+#### │   │   ├── User.js
 │   │   ├── Project.js
 │   │   └── Task.js
 │   ├── middleware/
