@@ -1,19 +1,19 @@
 # Project Management Tool
-Project Management Tool
-A full-stack web application for managing projects and tasks, built with a React frontend and an Express/MongoDB backend. Features include user authentication, project/task CRUD operations, server-side pagination and search, ownership validation, form validation, and unit tests.
-Tech Stack
 
+A full-stack web application for managing projects and tasks, built with a React frontend and an Express/MongoDB backend. Features include user authentication, project/task CRUD operations, server-side pagination and search, ownership validation, form validation, and unit tests.
+
+## Tech Stack
 Frontend: React, TypeScript, Vite, Tailwind CSS, React Router, React Hook Form, Yup, Axios
 Backend: Node.js, Express, MongoDB, Mongoose, JWT, Bcrypt
 Testing: Jest, Supertest, MongoDB Memory Server, React Testing Library
 
-Prerequisites
+## Prerequisites
 
 Node.js (v16 or higher)
 MongoDB (local or MongoDB Atlas)
 npm (v8 or higher)
 
-Project Structure
+## Project Structure
 project-management-tool/
 ├── backend/
 │   ├── controllers/
@@ -54,14 +54,12 @@ project-management-tool/
 │   └── tailwind.config.js
 └── README.md
 
-Setup Instructions
-Backend
+## Setup Instructions
+### Backend
 
 Navigate to the backend directory:cd backend
 
-
 Install dependencies:npm install
-
 
 Create a .env file in the backend directory with the following:MONGO_URI=mongodb://localhost:27017/project-management-tool
 JWT_SECRET=your_jwt_secret
@@ -71,9 +69,9 @@ Start the backend server:npm start
 
 The server runs on http://localhost:5000.
 
-Frontend
+### Frontend
 
-Navigate to the frontend directory:cd frontend
+*** Navigate to the frontend directory:cd frontend
 
 
 Install dependencies:npm install
